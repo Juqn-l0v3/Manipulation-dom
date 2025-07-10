@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulation_Dom</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>Welcome to the database</h1>
+        </div>
+    </header>
+    <main>
+        <video autoplay muted loop playsinline class="video">
+            <source src="./images/3129671-uhd_3840_2160_30fps.mp4">
+        </video>
+        <section>
+            <form id="userForm">
+                <label for="name" class="label">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="age" class="label">Age:</label>
+                <input type="number" id="age" name="age" required>
+                <button type="button" id="saveButton">Save Date</button>
+                <button type="button" id="clearButton">Clear Date</button>
+            </form>
+        </section>
+        <div id="output" class="database"></div>
+    </main>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
